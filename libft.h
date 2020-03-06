@@ -6,7 +6,7 @@
 /*   By: mgiraldo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/18 20:16:11 by mgiraldo          #+#    #+#             */
-/*   Updated: 2020/03/04 13:19:25 by mgiraldo         ###   ########.fr       */
+/*   Updated: 2020/03/04 22:30:32 by mgiraldo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,26 +14,6 @@
 # define LIBFT_H
 
 # include <string.h>
-
-/*
-** Macros for the limits of the variables.
-*/
-
-# define FT_CHAR_BIT		8
-# define FT_MB_LEN_MAX		1
-# define FT_SCHAR_MIN		-128
-# define FT_SCHAR_MAX		127
-# define FT_UCHAR_MAX		255
-# define FT_CHAR_MIN		-128
-# define FT_CHAR_MAX		127
-# define FT_SHRT_MIN		-32768
-# define FT_SHRT_MAX		32767
-# define FT_USHRT_MAX		65535
-# define FT_INT_MIN			-2147483648
-# define FT_INT_MAX			2147483647
-# define FT_LONG_MIN		-9223372036854775808
-# define FT_LONG_MAX		9223372036854775807
-# define FT_ULONG_MAX		18446744073709551615
 
 /*
 ** References for 42 libft of C Standard Library
